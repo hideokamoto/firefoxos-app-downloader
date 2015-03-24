@@ -1,31 +1,29 @@
 ﻿=== firefoxOS APP Downloader ===
 Contributors: hideokamoto
 Donate link: https://note.mu/hideokamoto/n/nd0cecce0e758
-Tags: json-ld
+Tags: shortcode
 Requires at least: 4.1.0
 Tested up to: 4.1.0
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is private plugin for wp-kyoto.net
+This app can use shortcode that firefoxOS application download link.
 
 == Description ==
 
-Set my private functions for wp-kyoto.net and others.
+This app can use shortcode that firefoxOS application download link.
 
 == Installation ==
 
-
-
-1. Upload `wp-kyoto-my-functions` directory to the `/wp-content/plugins/` directory
+1. Upload `firefoxos-app-downloader` directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
-= Can I use in my site ?  =
+= Can set many shortcode ?  =
 
-Sorry, this plugin is private plugin.
+Sorry, this version only one shortcode.
 
 
 == Screenshots ==
@@ -37,7 +35,7 @@ Sorry, this plugin is private plugin.
 == Changelog ==
 
 = 1.0 =
-2014/09/30 released
+2015/03/23 released
 
 == Upgrade Notice ==
 

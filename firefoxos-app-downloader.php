@@ -5,8 +5,8 @@
  */
 /*
 Plugin Name: firefoxos-app-downloader
-Plugin URI: http://wordpress.org/plugins/wp-kyoto-my-functions/
-Description: wpkyoto's functions
+Plugin URI: http://wordpress.org/plugins/firefoxos-app-downloader/
+Description: This app can use shortcode that firefoxOS application download link.
 Author: Hidetaka Okamoto
 Version: 1.0
 Author URI: http://wp-kyoto.net/
@@ -47,7 +47,7 @@ function ffap_get_download_btn($attr){
         'dlLink' => 'http://example.com/manifest.webapp',
     ), $attr));
 
-    $html = "<div id='ffapp-dl-btn' class=' {$class}' data-ffapp-dllink='{$dlLink}'>{$btnText}</div>";
+    $html = "<div id='ffapp-dl-btn' class='{$class}' data-ffapp-dllink='{$dlLink}'>{$btnText}</div>";
 
     return $html;
 }
