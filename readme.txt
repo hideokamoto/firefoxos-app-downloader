@@ -14,6 +14,10 @@ This app can use shortcode that firefoxOS application download link.
 
 This app can use shortcode that firefoxOS application download link.
 
+If you use shortcode, use [ffapp-dl class="CLASS" btnText="BUTTON TEXT" dlLink="http://example.com/applicationURL/manifest.webapp"].
+
+Print HTML like "<div class='CLASS' data-ffapp-dllink='http://example.com/applicationURL/manifest.webapp'>BUTTON TEXT</div>".
+
 == Installation ==
 
 1. Upload `firefoxos-app-downloader` directory to the `/wp-content/plugins/` directory
