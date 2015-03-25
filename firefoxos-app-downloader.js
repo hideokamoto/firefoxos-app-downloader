@@ -7,7 +7,7 @@ installButton.addEventListener("click", function() {
       var appRecord = this.result;
       alert('Installed!');
     };
-    request.onerror = function () 
+    request.onerror = function () {
       alert('ERROR:' + this.error.name);
     };
 });

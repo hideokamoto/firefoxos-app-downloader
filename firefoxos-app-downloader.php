@@ -1,14 +1,14 @@
 <?php
 /**
  * @package firefoxos-app-downloader
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: firefoxos-app-downloader
 Plugin URI: http://wordpress.org/plugins/firefoxos-app-downloader/
 Description: This app can use shortcode that firefoxOS application download link.
 Author: Hidetaka Okamoto
-Version: 1.0
+Version: 1.1
 Author URI: http://wp-kyoto.net/
 */
 
@@ -41,13 +41,14 @@ function ffap_set_script(){
 }
 
 function ffap_get_download_btn($attr){
+var_dump($attr);
     extract(shortcode_atts(array(
         'class' => 'default-class',
-        'btnText' => 'Download',
-        'dlLink' => 'http://example.com/manifest.webapp',
+        'text' => 'Download',
+        'dl' => 'http://example.com/manifest.webapp',
     ), $attr));
 
-    $html = "<div id='ffapp-dl-btn' class='{$class}' data-ffapp-dllink='{$dlLink}'>{$btnText}</div>";
+    $html = "<div id='ffapp-dl-btn' class='{$class}' data-ffapp-dllink='{$dl}'>{$text}</div>";
 
     return $html;
 }
